@@ -1,5 +1,5 @@
 //Aqui adicionamos um evento de escutar o click do mouse sobre o ícone de Hamburguer.
-hamburgerButton.addEventList("click", function() {
+hamburgerButton.addEventListener("click", function() {
     mobileMenu.classList.add("flex");
 //Criamos uma função que a ouvir o click do mouse, ele adicione uma Class, que está fazendo nossa caixa (div) aparecer, ou seja, ficar visível.
 });

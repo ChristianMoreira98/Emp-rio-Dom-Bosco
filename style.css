@@ -1,6 +1,5 @@
-* {
-    /*Configurações padrões de início de um projeto dentro do CSS  */
-    padding: 0;
+* {        /*Configurações padrões de início de um projeto dentro do CSS  */
+    padding: 0;            
     margin: 0;
     vertical-align: baseline;
     list-style: none;
@@ -14,181 +13,121 @@ html {
 
 
 header {
-    display: flex;
-    /* Resposável por colocar os itens na mesma linha (lado a lado) */
-    align-items: center;
-    /*Alinhar os itens do nosso Header para o centro*/
-    justify-content: space-evenly;
-    /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
-    padding: 2%;
-    /* Cuida do Preenchimento */
-    background-color: rgb(56, 49, 49);
-    /* Cor de fundo do nosso Cabeçalho/Header */
-    overflow: hidden;
-    /* */
-
+      display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+      align-items: center; /*Alinhar os itens do nosso Header para o centro*/
+      justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
+      padding: 2%;  /* Cuida do Preenchimento */
+      background-color: rgb(56, 49, 49); /* Cor de fundo do nosso Cabeçalho/Header */
+      overflow: hidden; /* */
+      
 }
 
-header>h1 {
-    /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso título */
-    color: white;
-    /* chamamos a propriedade color e definimos uma cor em questão */
-    font-size: 45px;
-    /*Tamanho da letra*/
+header > h1 {  /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso título */
+    color: white; /* chamamos a propriedade color e definimos uma cor em questão */ 
+    font-size: 45px; /*Tamanho da letra*/
 }
 
 
-header>img {
-    /* Aqui estamos chamando nossa imagem para ser atribuídas alterações*/
-    width: 11rem;
-    /* Largura da nossa imagem */
-    height: auto;
-    /* Tamanho da nossa imagem no tamanho automático*/
+header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alterações*/
+    width: 11rem;  /* Largura da nossa imagem */
+    height: auto; /* Tamanho da nossa imagem no tamanho automático*/
 }
 
 
-.item-menu-header {
-    /* Nossas li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados no HEADER */
-    margin-right: 25px;
-    /* margem da direita */
+.item-menu-header { /* Nossas li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados no HEADER */
+    margin-right: 25px; /* margem da direita */
 }
 
-.item-menu-header>a:hover {
-    /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO, e o Hover responsável pela modificação de cor ao passar o cursor em cima.*/
-    color: yellow;
-    /* Aqui atribuimos uma cor */
-    transition: 1s;
-    /* E o tempo em que será exibido ao passar o cursor */
+.item-menu-header > a:hover { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO, e o Hover responsável pela modificação de cor ao passar o cursor em cima.*/
+    color: yellow; /* Aqui atribuimos uma cor */
+    transition: 1s; /* E o tempo em que será exibido ao passar o cursor */
 }
 
-.item-menu-header>a {
-    /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO */
-    color: white;
-    /* Cor das letras */
-    text-decoration: none;
-    /* Responsável por tirar o sublinhado inferior que estava visível */
-    font-size: 0.8em;
-    /* Tamanho da letra */
-}
+.item-menu-header > a { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO */
+    color: white; /* Cor das letras */
+    text-decoration: none; /* Responsável por tirar o sublinhado inferior que estava visível */
+    font-size: 0.8em; /* Tamanho da letra */
+} 
 
 
 .navbar {
-    color: white;
-    /*Cor da letra*/
-    display: flex;
-    /*Flexíveis*/
-    justify-content: space-between;
-    /*A distribuição dos itens sejam com Space-between*/
-    align-items: center;
-    /*Alinhamento da vertical*/
-    padding: 1rem 1.5rem;
-    /*Preenchimento superior/inferior e esquerda/direita*/
-    height: 2.6rem;
-    /*Altura do NavBar*/
+    color: white; /*Cor da letra*/
+    display: flex; /*Flexíveis*/
+    justify-content: space-between; /*A distribuição dos itens sejam com Space-between*/
+    align-items: center; /*Alinhamento da vertical*/
+    padding: 1rem 1.5rem; /*Preenchimento superior/inferior e esquerda/direita*/
+    height: 2.6rem; /*Altura do NavBar*/
 }
 
-.nav-links {
-    /*Aqui estamos estilizando a UL (lista não ordenada)*/
-    list-style: none;
-    /*Retirando o estilo de lista*/
-    display: flex;
-    /*Tornando a caixa flexível, e lado a lado*/
-    margin: 0;
-    /*Zerando os espaços de margem que são habilitados por padrão*/
-    padding: 0;
-    /*Zerando os preenchimentos que são habilitados por padrão*/
+.nav-links { /*Aqui estamos estilizando a UL (lista não ordenada)*/
+    list-style: none; /*Retirando o estilo de lista*/ 
+    display: flex; /*Tornando a caixa flexível, e lado a lado*/
+    margin: 0; /*Zerando os espaços de margem que são habilitados por padrão*/
+    padding: 0; /*Zerando os preenchimentos que são habilitados por padrão*/
 }
 
 
-.nav-links li {
-    /*Estilizando nossa LI que está dentro da UL*/
-    padding: 0 8px;
-    /*Preenchimento da LI superior/inferior 0 e laterais em 9px*/
+.nav-links li { /*Estilizando nossa LI que está dentro da UL*/
+    padding: 0 8px; /*Preenchimento da LI superior/inferior 0 e laterais em 9px*/
 }
 
 .nav-links a,
-.nav-links-mobile a {
-    /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
-    color: white;
-    /*A cor da letra*/
-    text-decoration: none;
-    /*E sem sublinhado*/
+.nav-links-mobile a { /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
+    color: white; /*A cor da letra*/
+    text-decoration: none; /*E sem sublinhado*/
 }
 
 
 
-.mobile-menu {
-    /*Estilização da caixa Mobile quando aberta*/
-    display: none;
-    /*Display: Nenhum*/
-    position: fixed;
-    /*Posição fixa na parte direita da página*/
-    top: 0;
-    /*Superior em 0 fazendo a caixa encostar ao topo*/
-    right: 0;
-    /*Direita em 0 fazendo a caixa encostar a direita*/
-    width: 60%;
-    /*Largura em porcentagem da caixa*/
-    height: 100%;
-    /*Altura de 100% da tela*/
-    background-color: rgb(0, 0, 0);
-    /*Cor de fundo*/
-    flex-direction: column;
-    /*direção dos itens dentro da caixa */
-    align-items: center;
-    /*Alinhamento na vertical do itens*/
-    font-size: 1.8rem;
-    /*tamanho da letra dentro da caixa*/
+.mobile-menu { /*Estilização da caixa Mobile quando aberta*/
+    display: none; /*Display: Nenhum*/
+    position: fixed; /*Posição fixa na parte direita da página*/
+    top: 0; /*Superior em 0 fazendo a caixa encostar ao topo*/
+    right: 0; /*Direita em 0 fazendo a caixa encostar a direita*/
+    width: 60%; /*Largura em porcentagem da caixa*/
+    height: 100%; /*Altura de 100% da tela*/
+    background-color: rgb(0, 0, 0); /*Cor de fundo*/
+    flex-direction: column; /*direção dos itens dentro da caixa */
+    align-items: center; /*Alinhamento na vertical do itens*/
+    font-size: 1.8rem; /*tamanho da letra dentro da caixa*/
 }
 
-.nav-links-mobile {
-    /*Lista não ordenada da versão mobile*/
-    display: flex;
-    /*Tornando os itens (LISTAS) flexíveis*/
-    flex-direction: column;
-    /*Estamos direcionando o posicionamento dessas listas*/
-    text-align: end;
-    /*Alinhando o texto ao centro*/
-    gap: 1.2rem;
-    /*Espaço entre as listas */
+.nav-links-mobile { /*Lista não ordenada da versão mobile*/
+    display: flex; /*Tornando os itens (LISTAS) flexíveis*/
+    flex-direction: column; /*Estamos direcionando o posicionamento dessas listas*/
+    text-align: end; /*Alinhando o texto ao centro*/
+    gap: 1.2rem; /*Espaço entre as listas */
     /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
-    list-style: none;
-    /*Estilo de lista desabilitado*/
+    list-style: none; /*Estilo de lista desabilitado*/
     /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
 }
 
-.nav-links-mobile li {
-    /*listas da versão Mobile*/
-    border-bottom: 1px solid #787272;
-    /*Bordar inferior de cada lista*/
-    padding-bottom: 1.2rem;
-    /*Tamanho da borda*/
+.nav-links-mobile li { /*listas da versão Mobile*/
+    border-bottom: 1px solid #787272; /*Bordar inferior de cada lista*/
+    padding-bottom: 1.2rem; /*Tamanho da borda*/
 }
-
-
-
 
 .hamburger,
-.close {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    display: none;
+.close { /*Estilizando os botões de abertura e fechamento*/
+    font-size: 24px; /*Tamanho do elemento*/
+    background: none; /*Removido o Background*/
+    border: none; /*BORDA NENHUMAAAAAAA*/
+    color: white; /*cor do elemento*/
+    cursor: pointer; /*Cursor Habilitado*/
+    display: none; /*Escondendo os botões*/
 }
 
 
 .close {
-    margin-top: 20px;
-    margin-right: 20px;
-    display: block;
-    align-self: end;
+    margin-top: 20px;/*Espaçamento superior do X */
+    margin-right: 20px; /*Espaçamento a direita do X*/
+    display: block; /*Formatação da Imagem em bloco*/
+    align-self: end; /*Alinhamento do botão*/
 }
 
 
-.flex {
-    display: flex;
+.flex { /*ELEMENTO USADO NO JS*/
+    display: flex; /*Tornando item flexível e visível.*/
 }
 
 
@@ -196,52 +135,28 @@ header>img {
 
 
 
-
-
-
-
-
-
-
-
-
-#btn-header {
-    /*Nossa ID do Botão de Login */
-    display: flex;
-    /*  Resposável por colocar os itens na mesma linha (lado a lado) */
+#btn-header {   /*Nossa ID do Botão de Login */
+    display: flex; /*  Resposável por colocar os itens na mesma linha (lado a lado) */
 }
 
-#btn-header>button {
-    /* Aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO (button)*/
-    padding: 8px;
-    /*  Cuida do Preenchimento */
-    background-color: transparent;
-    /* Aqui deixamos o fundo do Botão transparent, ou seja sem o fundo Branco que estava em primeiro plano */
-    border: none;
-    /* None é usado para retirar algo, nesse caso a borda. */
+#btn-header > button { /* Aqui chamamos nossa ID e onde queremos fazer alterações, no caso o nosso BOTÃO (button)*/
+    padding: 8px; /*  Cuida do Preenchimento */
+    background-color: transparent; /* Aqui deixamos o fundo do Botão transparent, ou seja sem o fundo Branco que estava em primeiro plano */
+    border: none; /* None é usado para retirar algo, nesse caso a borda. */ 
 }
 
-#btn-header>button>a {
-    /* Estamos chamando aqui nossa TAG de Link para alteração. */
-    display: flex;
-    /* Resposável por colocar os itens na mesma linha (lado a lado)  */
-    align-items: center;
-    /* Alinhar os itens para o centro */
+#btn-header > button > a { /* Estamos chamando aqui nossa TAG de Link para alteração. */ 
+    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado)  */
+    align-items: center; /* Alinhar os itens para o centro */
     gap: 5px;
-    color: white;
-    /*Cor da letra */
-    text-decoration: none;
-    /* Responsável por tirar o sublinhado que estava visível */
-    font-weight: 400;
-    /* espessura da fonte */
+    color: white; /*Cor da letra */
+    text-decoration: none; /* Responsável por tirar o sublinhado que estava visível */
+    font-weight: 400; /* espessura da fonte */
 }
 
-#btn-header>button>a>img {
-    /* Aqui estamos mexendo nO ICON do botão*/
-    width: 1.8rem;
-    /* Largura */
-    height: auto;
-    /* Tamanho */
+#btn-header > button > a > img { /* Aqui estamos mexendo nO ICON do botão*/
+    width: 1.8rem; /* Largura */
+    height: auto; /* Tamanho */
 }
 
 
@@ -249,14 +164,10 @@ header>img {
 
 
 
-.img-padaria {
-    /* Aqui chamamos a ID que chamamos no HTML*/
-    padding: 21%;
-    /* Cuida do Preenchimento */
-    background-image: url(img/padaria.webp);
-    /* Usada para inserir imagens de fundo */
-    background-position: center;
-    /* Aqui posicionamos nossa imagem para o centro */
+.img-padaria { /* Aqui chamamos a ID que chamamos no HTML*/
+    padding: 21%;  /* Cuida do Preenchimento */
+    background-image: url(img/padaria.webp); /* Usada para inserir imagens de fundo */
+    background-position: center; /* Aqui posicionamos nossa imagem para o centro */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -269,16 +180,11 @@ header>img {
 
 
 
-.img-div {
-    /* Aqui chamamos nossa Class para alteração*/
-    padding: 2%;
-    /* Cuida do Preenchimento */
-    background-image: url(img/img-div.jpg);
-    /* Usada para inserir imagens de fundo */
-    background-position: center;
-    /* Aqui posicionamos nossa imagem para o centro */
-    background-size: auto;
-    /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
+.img-div {  /* Aqui chamamos nossa Class para alteração*/ 
+    padding: 2%; /* Cuida do Preenchimento */ 
+    background-image: url(img/img-div.jpg); /* Usada para inserir imagens de fundo */
+    background-position: center; /* Aqui posicionamos nossa imagem para o centro */ 
+    background-size: auto; /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
 }
 
 
@@ -289,16 +195,11 @@ header>img {
 
 
 
-main>section>h2 {
-    /* Aqui estamos chamando nosso H2 para estilização */
-    margin-top: 0px;
-    /*  indica o espaço acima do elemento / superior */
-    font-size: 36px;
-    /* Tamanho da letra */
-    text-align: center;
-    /* Alinhando o texto para o centro */
-    color: #000000;
-    /* Cor da letra do nosso H2 */
+main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
+    margin-top: 0px; /*  indica o espaço acima do elemento / superior */
+    font-size: 36px;  /* Tamanho da letra */
+    text-align: center; /* Alinhando o texto para o centro */
+    color: #000000; /* Cor da letra do nosso H2 */
 }
 
 #clients h2 {
@@ -306,73 +207,48 @@ main>section>h2 {
 }
 
 
-#clients {
-    /* Aqui chamamos nosso ID da Section*/
-
-    background-color: white;
-    /* Cor de fundo da nossa Section*/
-    margin-top: 0;
-    /*  indica o espaço acima do elemento / superior */
-    padding: 5%;
-    /* Cuida do Preenchimento */
+#clients { /* Aqui chamamos nosso ID da Section*/
+   
+    background-color: white; /* Cor de fundo da nossa Section*/
+    margin-top: 0; /*  indica o espaço acima do elemento / superior */
+    padding: 5%; /* Cuida do Preenchimento */
 }
 
-.line {
-    /* Aqui chamamos nossa Class que está dentro do nosso HR, que é utilizado como uma quebra de linha temática entre elementos HTML*/
-    margin: 0 auto;
-    /* Definimos em 0 a margin e colocamos o mesmo para auto para que recaia para o todo */
-    width: 20%;
-    /* Largura */
+.line{ /* Aqui chamamos nossa Class que está dentro do nosso HR, que é utilizado como uma quebra de linha temática entre elementos HTML*/
+    margin: 0 auto; /* Definimos em 0 a margin e colocamos o mesmo para auto para que recaia para o todo */
+    width: 20%; /* Largura */
 }
 
-#clients-list {
-    /* Aqui chamamos a nossa ID */
-    display: flex;
-    /* Resposável por colocar os itens na mesma linha (lado a lado) */
-    align-items: center;
-    /* Alinhar os itens para o centro */
-    justify-content: space-evenly;
-    /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
-    margin-top: 30px;
-    /* indica o espaço acima do elemento / superior */
+#clients-list { /* Aqui chamamos a nossa ID */ 
+    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+    align-items: center; /* Alinhar os itens para o centro */
+    justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
+    margin-top: 30px; /* indica o espaço acima do elemento / superior */
 }
 
 
 
 
-.clients-item {
-    /* Aqui chamamos nossa Class que está dentro da nossa ID */
-    display: flex;
-    /* Resposável por colocar os itens na mesma linha (lado a lado) */
-    justify-content: center;
-    /* Justificar-conteúdo no centro*/
-    align-items: center;
-    /* Alinhar os itens para o centro */
-    flex-direction: column;
-    /* Direção das caixas*/
+.clients-item { /* Aqui chamamos nossa Class que está dentro da nossa ID */
+    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+    justify-content: center; /* Justificar-conteúdo no centro*/
+    align-items: center; /* Alinhar os itens para o centro */
+    flex-direction: column; /* Direção das caixas*/
 }
 
-.clients-item>img {
-    /* Aqui chamamos nossa Tag IMG para estilização*/
-    width: 4.3rem;
-    /* Lagura */
-    height: 4rem;
-    /* Tamanho */
+.clients-item > img { /* Aqui chamamos nossa Tag IMG para estilização*/
+    width: 4.3rem; /* Lagura */
+    height: 4rem; /* Tamanho */
 }
 
 
 
 
-.clients-item>h3 {
-    /* Aqui chamamos nosso H3 para estilizar*/
-    font-family: 'Dancing Script', cursive;
-    /* Fonte escolhida */
-    font-size: 32px;
-    /* Tamanho da fonte*/
-    align-items: center;
-    /* Alinhar os itens para o centro */
-    margin-top: 10px;
-    /* indica o espaço acima do elemento / superior */
+.clients-item > h3 { /* Aqui chamamos nosso H3 para estilizar*/
+    font-family: 'Dancing Script', cursive; /* Fonte escolhida */
+    font-size: 32px; /* Tamanho da fonte*/
+    align-items: center; /* Alinhar os itens para o centro */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
 }
 
 /* #clients .img-femi{
@@ -382,86 +258,55 @@ main>section>h2 {
 } */
 
 
-.clients-item>p {
-    /* Aqui chamamos nossa TAG P para estilização*/
-    font-family: 'Dancing Script', cursive;
-    /* Fonte escolhida*/
-    font-size: 26px;
-    /* Tamanho da fonte */
-    margin-top: 10px;
-    /*  indica o espaço acima do elemento / superior */
-    align-items: center;
-    /* Alinhar os itens para o centro */
+.clients-item > p { /* Aqui chamamos nossa TAG P para estilização*/
+    font-family: 'Dancing Script', cursive; /* Fonte escolhida*/
+    font-size: 26px; /* Tamanho da fonte */
+    margin-top: 10px; /*  indica o espaço acima do elemento / superior */
+    align-items: center; /* Alinhar os itens para o centro */
 }
 
-#featured-products {
-    /* ID usada para a section dos nossos produtos */
-    background: linear-gradient(180deg, #d49664 8.33%, rgba(244, 200, 175, 0) 100%);
-    /* Aqui colocamos uma estilização de fundo em Degradê */
-    padding: 30px;
-    /* Preenchimento */
+#featured-products { /* ID usada para a section dos nossos produtos */
+    background: linear-gradient(180deg, #d49664 8.33%, rgba(244, 200, 175, 0) 100%); /* Aqui colocamos uma estilização de fundo em Degradê */
+    padding: 30px; /* Preenchimento */
 }
 
-.products {
-    /* Aqui chamamos nossa Class dos produtos para estilização.*/
-    margin-top: 3em;
-    /*  indica o espaço acima do elemento / superior */
-    display: flex;
-    /* Resposável por colocar os itens na mesma linha (lado a lado) */
-    align-items: center;
-    /* Alinhar os itens para o centro */
-    justify-content: space-evenly;
-    /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
+.products  {  /* Aqui chamamos nossa Class dos produtos para estilização.*/
+    margin-top: 3em; /*  indica o espaço acima do elemento / superior */
+    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
+    align-items: center; /* Alinhar os itens para o centro */
+    justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
 }
 
-.img-product {
-    /* Class inserida nas nossas tags IMG */
-    width: 21rem;
-    /* Largura */
-    height: 21rem;
-    /* Tamanho */
-    border-radius: 50px;
-    /* Estilo arredondado das bordas */
+.img-product { /* Class inserida nas nossas tags IMG */
+    width: 21rem; /* Largura */
+    height: 21rem; /* Tamanho */
+    border-radius: 50px; /* Estilo arredondado das bordas */
 }
 
-.title-products {
-    /* Class usada para edição dos títulos dos produtos, exemplo perfeito de o porque usamos a classe nesses casos */
-    margin-top: 10px;
-    /* indica o espaço acima do elemento / superior */
-    font-family: 'Ubuntu', 'sans-serif';
-    /* Fonte selecionada */
-    text-align: center;
-    /* Alinhar texto. Center: Centro*/
-    font-size: 22px;
-    /* Tamanho da Letra */
+.title-products {  /* Class usada para edição dos títulos dos produtos, exemplo perfeito de o porque usamos a classe nesses casos */
+    margin-top: 10px; /* indica o espaço acima do elemento / superior */
+    font-family: 'Ubuntu', 'sans-serif'; /* Fonte selecionada */
+    text-align: center; /* Alinhar texto. Center: Centro*/
+    font-size: 22px; /* Tamanho da Letra */
 }
 
-#featured-products>a {
-    /* Aqui estamos chamando nossa TAG de link para estilização */
-    text-decoration: none;
-    /* Aqui desabilitamos com o none qualquer sublinado que tenha dentro da nossa TAG "a" */
-    font-family: 'Ubuntu', 'sans-serif';
-    /* Fonte selecionada */
-    font-size: 1.6rem;
-    /* Tamanho da letra */
-    color: red;
-    /* Cor da Letra */
+#featured-products > a { /* Aqui estamos chamando nossa TAG de link para estilização */
+    text-decoration: none; /* Aqui desabilitamos com o none qualquer sublinado que tenha dentro da nossa TAG "a" */
+    font-family: 'Ubuntu', 'sans-serif'; /* Fonte selecionada */
+    font-size: 1.6rem; /* Tamanho da letra */
+    color: red; /* Cor da Letra */
     display: flex;
     justify-content: center;
 }
 
-#featured-products>a:hover {
-    /* Aqui estamos chamando novamente nossa TAG de link para colocar um efeito Hover nela */
-    text-decoration: underline;
-    /* Aqui chamamos o text decoration para colocar uma decoração ao passar do cursos underline serve como um sublinhado em baixo do nome*/
-    font-size: 1.8rem;
-    /* Tamanho da letra ao passar o cursor em cima */
-    transition: 1s;
-    /* O tempo que será realizado esta ação */
+#featured-products > a:hover { /* Aqui estamos chamando novamente nossa TAG de link para colocar um efeito Hover nela */
+    text-decoration: underline; /* Aqui chamamos o text decoration para colocar uma decoração ao passar do cursos underline serve como um sublinhado em baixo do nome*/
+    font-size: 1.8rem; /* Tamanho da letra ao passar o cursor em cima */
+    transition: 1s; /* O tempo que será realizado esta ação */
 }
 
 
-#featured-products>h2 {
+#featured-products > h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -471,116 +316,71 @@ main>section>h2 {
 
 
 
-#sobre-nos {
-    /* Chamamos aqui nossa ID */
-    background-image: url(img/fundo-sobre-nos.jpg);
-    /* Usado para inserir a imagem de fundo */
-    background-repeat: no-repeat;
-    /* Aqui colocamos a função para a imagem não seja repetida */
-    background-attachment: fixed;
-    /* */
-    background-position: center;
-    /* Na posição da imagem colocamos ao centro */
-    background-size: cover;
-    /* */
-    padding: 10%;
-    /* */
+#sobre-nos { /* Chamamos aqui nossa ID */
+    background-image: url(img/fundo-sobre-nos.jpg); /* Usado para inserir a imagem de fundo */
+    background-repeat: no-repeat; /* Aqui colocamos a função para a imagem não seja repetida */
+    background-attachment: fixed; /* */
+    background-position: center; /* Na posição da imagem colocamos ao centro */
+    background-size: cover; /* */
+    padding: 10%; /* */
 }
 
-#sobre-nos>h3 {
-    /* */
-    color: white;
-    /* */
-    font-size: 4em;
-    /* */
-    text-align: center;
-    /* */
-    font-family: 'Ubuntu', 'sans-serif';
-    /* */
+#sobre-nos > h3 {  /* */
+    color: white; /* */
+    font-size: 4em; /* */
+    text-align: center; /* */
+    font-family: 'Ubuntu', 'sans-serif'; /* */
 }
 
-#sobre-nos>p {
-    /* */
-    font-family: 'Ubuntu', 'sans-serif';
-    /* */
-    font-weight: 500;
-    /* */
-    color: white;
-    /* */
-    font-size: 1.2em;
-    /* */
-    margin-top: 2em;
-    /* */
-    text-align: left;
-    /* */
-
+#sobre-nos >  p {   /* */ 
+    font-family: 'Ubuntu', 'sans-serif'; /* */
+    font-weight: 500; /* */
+    color: white; /* */
+    font-size: 1.2em; /* */
+    margin-top: 2em; /* */
+    text-align: left; /* */
+    
 }
 
 
 
-footer {
-    /* */
-    padding: 6%;
-    /* */
-    background-image: url(img/img-footer.jpg);
-    /* */
-    background-position: bottom;
-    /* */
-    background-repeat: no-repeat;
-    /* */
-
+footer {    /* */
+    padding: 6%;  /* */
+    background-image: url(img/img-footer.jpg);  /* */
+    background-position: bottom;  /* */
+    background-repeat: no-repeat;  /* */
+    
 }
 
-footer>ul {
-    /* */
-    display: flex;
-    /* */
-    justify-content: space-evenly;
-    /* */
+footer > ul {   /* */
+    display: flex;  /* */
+    justify-content: space-evenly;  /* */
 }
 
-footer>h2 {
-    /* */
-    color: black bold;
-    /* */
-    font-size: 40px;
-    /* */
-    font-weight: bold;
-    /* */
-    text-align: center;
-    /* */
-    margin-bottom: 1em;
-    /* */
+footer > h2 {  /* */
+    color: black bold; /* */
+    font-size: 40px;  /* */
+    font-weight: bold;  /* */
+    text-align: center;  /* */
+    margin-bottom: 1em;  /* */
 }
 
-.item-menu-footer {
-    /* */
-    display: flex;
-    /* */
-    align-items: center;
-    /* */
-    margin-top: 30px;
-    /* */
+.item-menu-footer {  /* */
+    display: flex;  /* */
+    align-items: center;  /* */
+    margin-top: 30px;  /* */
 }
 
-.item-menu-footer>img {
-    /* */
-    width: 34px;
-    /* */
-    height: 34px;
-    /* */
+.item-menu-footer > img {  /* */
+    width: 34px;  /* */
+    height: 34px;  /* */
 }
 
-.item-menu-footer>p {
-    /* */
-    color: black bold;
-    /* */
-    font-size: 24px;
-    /* */
-    font-weight: bold;
-    /* */
-    margin-left: 10px;
-    /* */
+.item-menu-footer > p {  /* */
+    color: black bold; /* */
+    font-size: 24px; /* */
+    font-weight: bold; /* */
+    margin-left: 10px; /* */
 }
 
 
@@ -593,11 +393,11 @@ footer>h2 {
 
 
 
-@media(max-width: 410px) {
+@media(max-width: 410px){ 
     #menu-header {
         display: none;
     }
-
+  
     /* #btn-header button a {
         display: block;
         font-family: bold;
@@ -617,19 +417,19 @@ footer>h2 {
 
 
     header img {
-        width: 30px;
-        height: 40px;
+    width: 30px;
+    height: 40px;
     }
 
     header h1 {
         font-size: 1em;
     }
-
+    
 
     header {
-        padding: 5%;
+     padding: 5%;   
     }
-
+    
 
     #clients-list {
         display: block;
@@ -647,8 +447,8 @@ footer>h2 {
         margin-top: 10%;
     }
 
-
-    .clients-item p {
+    
+     .clients-item p {
         font-size: 15px;
         margin-bottom: 10%;
     }
@@ -660,15 +460,14 @@ footer>h2 {
 
 
 
-    .clients-item>img {
-        width: 80px;
-        height: auto;
+    .clients-item > img {
+         width: 80px;
+         height: auto;
     }
-
     .products {
         display: block;
         align-items: center;
-
+       
     }
 
 
@@ -676,9 +475,9 @@ footer>h2 {
         margin-left: 16px;
     }
 
-    #featured-products>a {
+    #featured-products > a {
         margin-top: 20px;
-    }
+    } 
 
 
 
@@ -706,7 +505,7 @@ footer>h2 {
         max-width: 100%;
         height: auto;
         background-position: top;
-    }
+    } 
 
 
 
@@ -718,24 +517,26 @@ footer>h2 {
     .img-product {
         margin-top: 80px;
     }
-
+    
     footer {
         color: #000000;
     }
 
-    footer>h2 {
-        font-size: 26px;
+    footer > h2 {
+       font-size: 26px;
     }
 
-    .item-menu-footer>p {
+    .item-menu-footer > p {
         font-size: 20px;
-
+        
     }
+
+} 
+
+
+@media (max-width: 700px) {
 
 }
-
-
-@media (max-width: 700px) {}
 
 
 
@@ -751,18 +552,17 @@ footer>h2 {
         } */
 
 
-    header img {
-        width: 4em;
-        height: auto;
-    }
-
+        header img {
+            width: 4em;
+            height: auto;
+            }
+            
     .nav-links {
         display: none;
     }
 
     .hamburger {
         display: block;
-
     }
 
     .mobile-menu {
@@ -770,7 +570,7 @@ footer>h2 {
     }
 
     #btn-header {
-        display: none;
+       display: none;
     }
 
 
