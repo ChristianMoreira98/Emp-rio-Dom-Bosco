@@ -28,6 +28,12 @@ revelar.reveal('.principais-produtos', {
     distance: '200px'
 })
 
+revelar.reveal('.sobre-nos-js', {
+    duration: 2000,
+    distance: '200px',
+    origin: 'left'
+})
+
 
 
 
