@@ -36,6 +36,14 @@ revelar.reveal('.sobre-nos-js', {
 
 
 
+revelar.reveal('.produtos', {
+    duration: 2000,
+    distance: '200px',
+    origin: 'left'
+})
+
+
+
 
 //Aqui adicionamos um evento de escutar o click do Mouse sobre o ícone de Hamburguer.
 hamburgerButton.addEventListener("click", function() {
