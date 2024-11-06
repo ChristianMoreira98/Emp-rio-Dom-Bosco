@@ -46,13 +46,11 @@ header img{
 .text-js {
     text-align: center;
     justify-content: center;
-    align-items: center;
-    margin-left: 18rem;
-    margin-top: 15px;
+    align-items: center;  margin-top: 15px;
     padding: 10px 40px; /* Preenchimento da altura e largura do botão */
     border: 0; /* Aqui zeramos a borda */
     border-radius: 10px; /* Colocamos aqui um arredondamento no Botão */
-    background-color: beige/* Cor do Botão */
+    background-color: beige;/* Cor do Botão */
     color: rgb(255, 255, 255); /* Cor da letra (Dentro do Botão) */
     cursor: pointer; /* Torna o botão em algo clicavel  */
 }
@@ -89,15 +87,15 @@ header img{
 
 
 .h2-feedback{
-    colo
+color: white;
+font-weight: 500;
 }
 
-footer {    /* */
-    padding: 6%;  /* */
-    background-image: url(img/img-footer.jpg);  /* */
-    background-position: bottom;  /* */
-    background-repeat: no-repeat;  /* */
-    
+footer {   
+    padding: 6%; 
+    background-image: url(img/img-footer.jpg); 
+    background-position: bottom;
+    background-repeat: no-repeat; 
 }
 
 footer > ul {   /* */

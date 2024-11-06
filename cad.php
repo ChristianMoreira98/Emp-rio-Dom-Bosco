@@ -37,14 +37,16 @@
    <div class="textarea">
       <textarea name="" id="" cols="55" rows="15"></textarea>
    </div>
+
+   <button class="text-js">
+   <a href="javascript:history.go(-1)">Voltar para página anterior</a>
+</button>
+
 </div>
 
 
 
 
-<button class="text-js">
-   <a href="javascript:history.go(-1)">Voltar para página anterior</a>
-</button>
 
 
 
