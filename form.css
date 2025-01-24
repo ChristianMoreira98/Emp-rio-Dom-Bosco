@@ -103,3 +103,38 @@ form input[type=submit]{ /* Aqui estilizamos nosso Botão de enviar*/
 .form-container {
     opacity: 90%;
 }
+
+@media (max-width: 540px){
+
+form{
+width: 25rem;
+
+}
+} 
+
+@media (max-width: 420px){
+
+    form{
+    width: 20rem;
+    height: 25rem;
+    }
+
+    form h1{
+        font-size: 1.3rem;
+    }
+    
+    } 
+
+    
+@media (max-width: 340px){
+
+    form{
+    width: 15rem;
+    height: 25rem;
+    }
+
+    form h1{
+        font-size: 0.8rem;
+    }
+    
+    } 
